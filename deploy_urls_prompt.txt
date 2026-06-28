@@ -1,0 +1,24 @@
+Copy/Paste Prompt (for another AI/code assistant)
+
+I have already deployed my MERN Task Tracker.
+- Frontend (Vercel): https://task-tracker-vcnr.vercel.app/
+- Backend (Render): https://task-tracker-1-uxky.onrender.com/
+
+I want you to update my VS Code project so that the frontend and backend APIs are merged into a single working production flow.
+
+Requirements:
+1) In the frontend, set VITE_API_BASE_URL to point to the Render backend API path.
+   - Use: https://task-tracker-1-uxky.onrender.com/api
+2) Ensure that ALL axios calls from the React app use that base URL (no localhost usage).
+3) Provide the exact files and exact code changes needed.
+4) After code changes, tell me exactly how to run locally to verify end-to-end:
+   - start frontend
+   - start backend (optional)
+   - run a quick check that /health and /api/tasks work from the browser
+5) Also update README with these production URLs.
+
+Deliverables:
+- A patch/changeset (file-by-file) implementing the above.
+- Exact commands to test the production endpoints.
+- Then instruct me how to push changes to GitHub and redeploy if necessary.
+
